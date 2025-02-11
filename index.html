@@ -19,31 +19,39 @@
 <body>
     <!-- Header starts here -->
     <header>
+        <div class="container p-0">
         <nav class="navbar navbar-expand-sm fixed-top p-0">
             <div class="container">
                 <a class="navbar-brand p-0" href="#">
                     <img src="ex-1/images/head_logo.jpg" title="header-logo" alt="logo" height="71" width="152">
                 </a>
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="list-link p-4 list-item-active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="list-link p-4" href="#">About</a></li>
-                    <li class="nav-item"><a class="list-link p-4" href="#">Services</a></li>
-                    <li class="nav-item"><a class="list-link p-4" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="list-link p-4" href="#">Price</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="list-link p-4 dropdown-toggle" data-bs-toggle="dropdown" href="#Blog">Blog</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Blog1</a></li>
-                            <li><a class="dropdown-item" href="#">Blog1</a></li>
-                            <li><a class="dropdown-item" href="#">Blog1</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item mail"><a class="list-link" href="mailto:someone@example.com">
-                            <i class="bi bi-envelpoe"></i></a>
-                    </li>
-                </ul>
+                <a class="navbar-toggler"data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                </a>
+                <div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="list-link p-4 list-item-active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="list-link p-4" href="#">About</a></li>
+                        <li class="nav-item"><a class="list-link p-4" href="#">Services</a></li>
+                        <li class="nav-item"><a class="list-link p-4" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="list-link p-4" href="#">Price</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="list-link p-4 dropdown-toggle" data-bs-toggle="dropdown" href="#Blog">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mail"><a class="list-link" href="mailto:someone@example.com">
+                                <i class="bi bi-envelpoe"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
+    </div>
     </header>
     <!-- Header ends here -->
 
@@ -53,7 +61,7 @@
             <div class="homepage-wrapper">
                 <div class="homepage-content position-absolute translate-middle top-50 start-50 text-center">
                     <h1>We Will <b>Make</b> Your <b> Business</b> Great Again</h1>
-                    <p class="white p-3">QLorem ipsum dolor sit amet consectetu <span class="d-block">Lorem ipsum dolor
+                    <p class="white m-3">QLorem ipsum dolor sit amet consectetu <span class="d-block">Lorem ipsum dolor
                             sit.</span></p>
                     <ul class="d-flex justify-content-center gap-3">
                         <li><a href="#"
@@ -72,7 +80,8 @@
     <!-- HelloWorld-page starts here -->
     <section id="HelloWorld-page" class="p-5">
         <div class="container">
-            <div class="d-flex pt-5 pb-5">
+            <div class="helloworld-page-wrapper">
+            <div class="HelloWorld-page-content  d-flex pt-5 pb-5">
                 <div class="text-box">
                     <h2 class="h2-black black pt-4">Hello <b>World</b></h2>
                     <p class="p-4 ps-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente et vitae vero
@@ -96,10 +105,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="office-area ps-4">
+                <div class="office-area">
                     <img src="ex-1/images/img-3.jpg" alt="office" height="400" width="600">
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- HelloWorld-page ends here -->
@@ -481,8 +491,8 @@
                         <form class="input-container">
                             <input class="input-box" type="text" placeholder="email">
                             <div class="send-button">
-                                <img class="mail-button" src="ex-1/images/icons/i-message.svg"
-                                alt="button" height="30" width="30" title="input-section">
+                                <img class="mail-button" src="ex-1/images/icons/i-message.svg" alt="button" height="30"
+                                    width="30" title="input-section">
                             </div>
                         </form>
                     </div>
