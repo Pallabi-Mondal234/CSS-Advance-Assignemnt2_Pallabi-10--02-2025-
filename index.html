@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2(Advance) Bootstrap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,84.1,100;1,84.1,100&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CssAdvSecBS5.css">
+</head>
+
+<body>
+    <!-- Header starts here -->
+    <header>
+        <div class="container p-0">
+        <nav class="navbar navbar-expand-sm fixed-top p-0">
+            <div class="container">
+                <a class="navbar-brand p-0" href="#">
+                    <img src="ex-1/images/head_logo.jpg" title="header-logo" alt="logo" height="71" width="152">
+                </a>
+                <a class="navbar-toggler"data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                </a>
+                <div id="collapsibleNavbar" class="collapse navbar-collapse justify-content-end" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="list-link p-4 list-item-active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="list-link p-4" href="#">About</a></li>
+                        <li class="nav-item"><a class="list-link p-4" href="#">Services</a></li>
+                        <li class="nav-item"><a class="list-link p-4" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="list-link p-4" href="#">Price</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="list-link p-4 dropdown-toggle" data-bs-toggle="dropdown" href="#Blog">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Blog1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog1</a></li>
+                                <li><a class="dropdown-item" href="#">Blog1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mail"><a class="list-link" href="mailto:someone@example.com">
+                                <i class="bi bi-envelpoe"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </header>
+    <!-- Header ends here -->
+
+    <!-- Home Page Starts here  -->
+    <section class="homepage">
+        <div class="container">
+            <div class="homepage-wrapper">
+                <div class="homepage-content position-absolute translate-middle top-50 start-50 text-center">
+                    <h1>We Will <b>Make</b> Your <b> Business</b> Great Again</h1>
+                    <p class="white m-3">QLorem ipsum dolor sit amet consectetu <span class="d-block">Lorem ipsum dolor
+                            sit.</span></p>
+                    <ul class="d-flex justify-content-center mt-4 gap-3">
+                        <li><a href="#"
+                                class="btn rounded-pill bg-warning py-3 px-5 border border-2 border-warning button-active">Contact
+                                Us</a></li>
+                        <li><a href="#" class="btn rounded-pill py-3 px-5 btn-hover">Discover Now</a></li>
+                    </ul>
+                </div>
+                <a href="#HelloWorld-page" class="click-arrow"><img src="ex-1/images/icons/darrow.png"
+                        alt="down-arrow-icon" height="10" width="20" title="down-arrow"></a>
+            </div>
+        </div>
+    </section>
+    <!-- Home Page ends here  -->
+
+    <!-- HelloWorld-page starts here -->
+    <section id="HelloWorld-page" class="p-5">
+        <div class="container">
+            <div class="helloworld-page-wrapper">
+            <div class="HelloWorld-page-content  d-flex pt-5 pb-5">
+                <div class="text-box">
+                    <h2 class="h2-black black pt-4">Hello <b>World</b></h2>
+                    <p class="p-4 ps-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente et vitae vero
+                        incidunt quianihilipsum laudantium quam facere magni laboriosam exercitationem, inventore, earum
+                        odio dolores</p>
+                    <div class="icon-list">
+                        <div class="pt-3 pb-3">
+                            <img src="ex-1/images/icons/i-diamond_b.svg" alt="diamond-icon" height="30" width="30"
+                                title="diamond">
+                            <span class="ms-2">Exploring your area of activity</span>
+                        </div>
+                        <div class="pt-3 pb-3">
+                            <img src="ex-1/images/icons/i-wallet_b.svg" alt="wallet-icon" height="30" width="30"
+                                title="wallet">
+                            <span class="ms-2">Competitive analysis</span>
+                        </div>
+                        <div class="pt-3 pb-3">
+                            <img src="ex-1/images/icons/i-trophy-d.svg" alt="trophy-icon" height="30" width="30"
+                                title="trophy">
+                            <span class="ms-2">Do the work in time</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="office-area">
+                    <img src="ex-1/images/img-3.jpg" alt="office" height="450" width="650">
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- HelloWorld-page ends here -->
+
+    <!-- service-page starts here -->
+    <section class="service-page">
+        <div class="container">
+            <div class="service-content text-center p-5">
+                <h2 class="white pt-5 pb-5">Some Of our <b>best services</b> to solve your problems</h2>
+                <div class="service-overview d-flex white">
+                    <div class="service-section p-3">
+                        <div class="imgdiv icon1 rounded-circle mx-auto"></div>
+                        <h6>Digital Marketing</h6>
+                        <p class="white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit minus dicta
+                            excepturi</p>
+                    </div>
+                    <div class="service-section p-3">
+                        <div class="imgdiv icon2 rounded-circle mx-auto"></div>
+                        <h6>Web Development</h6>
+                        <p class="white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit minus dicta
+                            excepturi</p>
+                    </div>
+                    <div class="service-section p-3">
+                        <div class="imgdiv icon3 rounded-circle mx-auto"></div>
+                        <h6>UI/UX Design</h6>
+                        <p class="white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit minus dicta
+                            excepturi</p>
+                    </div>
+                </div>
+                <a href="#"
+                    class="btn rounded-pill bg-warning py-3 px-5 border border-2 border-warning button-active m-5">Order
+                    a Service</a>
+            </div>
+        </div>
+    </section>
+    <!-- service-page ends here -->
+
+    <!-- Design-page starts here -->
+    <section class="design-page">
+        <div class="container">
+            <div class="design-page-text pt-5 pb-5">
+                <h2 class="black"><b>Good design </b>is obvious Great design is transparent</h2>
+                <p class="black desc pt-4 pb-5 mb-4"><span class="text-dark fw-bold">About Joe &copy</span> grapic
+                    Designer, digital literacy teacher</p>
+                <ul class="d-flex list-unstyled">
+                    <li class="list-item"><a class="list-link list-item-active" href="#" class="list-item-active">Show
+                            All</a></li>
+                    <li class="list-item"><a class="list-link" href="#">design</a></li>
+                    <li class="list-item"><a class="list-link" href="#">Code</a></li>
+                    <li class="list-item"><a class="list-link" href="#">Art</a></li>
+                </ul>
+                <div class="item-section">
+                    <div class="item-content">
+                        <div class="item-wrapper big">
+                            <img src="ex-1/images/12-min.jpg" alt="skateboard" width="300" height="500"
+                                title="skateboard-img">
+                            <div class="overlay">
+                                <div class="plus-sign-div">+</div>
+                                <p>Total Projects</p>
+                                <p>code</p>
+                            </div>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="ex-1/images/2-min.jpg" alt="calender" width="300" height="500"
+                                title="color-calender">
+                            <div class="overlay">
+                                <div class="plus-sign-div">+</div>
+                                <p>Total Projects</p>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-wrapper1">
+                            <div class="item-wrapper-middle-top">
+                                <img src="ex-1/images/2-min.jpg" alt="calender" width="300" height="500"
+                                    title="color-calender">
+                                <div class="overlay">
+                                    <div class="plus-sign-div">+</div>
+                                    <p>Total Projects</p>
+                                    <p>code</p>
+                                </div>
+                            </div>
+                            <div class="item-wrapper-middle-top ">
+                                <img src="ex-1/images/2-min.jpg" alt="calender" width="300" height="500"
+                                    title="color-calender">
+                                <div class="overlay">
+                                    <div class="plus-sign-div">+</div>
+                                    <p>Total Projects</p>
+                                    <p>code</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="ex-1/images/2-min.jpg" alt="calender" width="300" height="500"
+                                title="color-calender">
+                            <div class="overlay">
+                                <div class="plus-sign-div">+</div>
+                                <p>Total Projects</p>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item-content">
+                        <div class="item-wrapper big" style="order: 2;">
+                            <img src="ex-1/images/12-min.jpg" alt="skateboard" width="300" height="500"
+                                title="skateboard-img">
+                            <div class="overlay">
+                                <div class="plus-sign-div">+</div>
+                                <p>Total Projects</p>
+                                <p>code</p>
+                            </div>
+                        </div>
+                        <div class="item-wrapper" style="order: 1;">
+                            <img src="ex-1/images/2-min.jpg" alt="calender" width="300" height="500"
+                                title="color-calender">
+                            <div class="overlay">
+                                <div class="plus-sign-div">+</div>
+                                <p>Total Projects</p>
+                                <p>code</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Design-page ends here -->
+
+    <!-- highlight-page starts here -->
+    <section class="highlight-page">
+        <div class="container">
+            <div class="highlight-section d-flex justify-content-center align-items-center text-center white">
+                <div class="highlight-item flex-fill">
+                    <div class="imgdiv icon4 rounded-circle mx-auto"></div>
+                    <h6 class="hightlight-name">Unique customer:</h6>
+                    <p class="hightlight-text">3519+</p>
+                </div>
+
+                <div class="highlight-item flex-fill">
+                    <div class="imgdiv icon5 rounded-circle mx-auto"></div>
+                    <h6 class="hightlight-name">Completed projects:</h6>
+                    <p class="hightlight-text">3519+</p>
+                </div>
+
+                <div class="highlight-item flex-fill">
+                    <div class="imgdiv icon6 rounded-circle mx-auto"></div>
+                    <h6 class="text-warning">Happy users:</h6>
+                    <p class="text-warning hightlight-text">3519+</p>
+                </div>
+
+                <div class="highlight-item flex-fill">
+                    <div class="imgdiv icon7 rounded-circle mx-auto"></div>
+                    <h6 class="hightlight-name">Honors and awards:</h6>
+                    <p class="hightlight-text">3519+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- highlight-page ends here -->
+
+    <!-- Flexible Price starts here -->
+    <section class="pricing-plans-page">
+        <div class="container">
+            <div class="pricing-plan-page-wrapper text-center pt-5 pb-5">
+                <h2 class="black pt-3 pb-3">Flexible <b>Pricing </b>Plans</h2>
+                <p class="black pt-3 pb-3">Lorem ipsum dolor, sit ametconsectetur adipisicing.</p>
+                <div class="plans-section d-flex justify-content-center align-items-center text-center pt-5 pb-5">
+                    <div class="plans-item border p-3 me-3 bg-white rounded shadow-sm">
+                        <div class="plans-content">
+                            <h3 class="pt-3">Trial Version</h3>
+                            <p class="pb-4 ps-3 pe-3 text-dark">Lorem ipsum dolor sit ametconsec teturadipisicin
+                                ametconsectetur</p>
+                            <h4>free</h4>
+                            <p class="text-dark">500gb drive space</p>
+                            <p class="text-dark">Unlimited message</p>
+                            <p class="light-color">Free email address</p>
+                            <p class="light-color">Friendly Support</p>
+                            <a href="#" class="btn rounded-pill py-3 px-5 m-3 btn-hover1">Download</a>
+                        </div>
+                    </div>
+                    <div class="plans-item border p-3 me-3 bg-white rounded shadow-sm">
+                        <div class="plans-content">
+                            <h3 class="pt-3">Regular</h3>
+                            <p class="pb-4 ps-3 pe-3 text-dark">Lorem ipsum dolor sit ametconsec teturadipisicin
+                                ametconsectetur</p>
+                            <h4><span>$ </span>19<span>/Month</span></h4>
+                            <p class="text-dark">500gb drive space</p>
+                            <p class="text-dark">Unlimited message</p>
+                            <p class="text-dark">Free email address</p>
+                            <p class="light-color">Friendly Support</p>
+                            <a href="#"
+                                class="btn border-2 rounded-pill bg-warning py-3 px-5 border-warning button-active m-3">Purchase</a>
+                        </div>
+                    </div>
+                    <div class="plans-item border p-3 bg-white rounded shadow-sm">
+                        <div class="plans-content">
+                            <h3 class="pt-3">Extended</h3>
+                            <p class="pb-4 ps-3 pe-3 text-dark">Lorem ipsum dolor sit ametconsec teturadipisicin
+                                ametconsectetur</p>
+                            <h4><span>$ </span>29<span>/Month</span></h4>
+                            <p class="text-dark">500gb drive space</p>
+                            <p class="text-dark">Unlimited message</p>
+                            <p class="text-dark">Free email address</p>
+                            <p class="text-dark">Friendly Support</p>
+                            <a href="#" class="btn rounded-pill py-3 px-5 m-3 btn-hover1">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Flexible Price ends here -->
+
+    <!-- Testimonial starts here -->
+    <section class="testimonial-page">
+        <div class="container">
+            <div class="upper-part d-flex justify-content-between">
+                <h2 class="white"><b>Testimonials</b> About Us</h2>
+                <div class="arrow-box d-flex">
+                    <div class="left-arrow">&nbsp;</div>
+                    <div class="right-arrow">&nbsp;</div>
+                </div>
+            </div>
+            <p class="pt-4 pb-5">Lorem ipsum dolor sit ametconsectetur adipisicingelit. Nisi, quidem.</p>
+            <div class="service-overview d-flex justify-content-center text-center">
+                <div class="p-3">
+                    <div class="m-4">
+                        <img class="testimonial-img rounded-circle" src="ex-1/images/t-1.jpeg" alt="employee"
+                            height="80" width="80" title="employee-img">
+                    </div>
+                    <h4 class="white">Robert Newmen</h4>
+                    <p class="white fw-light pt-3 pb-3">Microsoft Corporation</p>
+                    <p>Lorem ipsum dolor sit amet consecteturadipisicing elit. Odit quam minima doloribus
+                        natus
+                        nostrum,recusandae quae maxime commodi nemofugiat. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Officia aspernatur expedita magnam eaque,</p>
+                </div>
+                <div class="p-3">
+                    <div class="m-4">
+                        <img class="testimonial-img rounded-circle" src="ex-1/images/t-2.jpeg" alt="employee"
+                            height="80" width="80" title="employee-img">
+                    </div>
+                    <h4 class="white">Robert Browney</h4>
+                    <p class="white fw-light pt-3 pb-3">Space X</p>
+                    <p>Lorem ipsum dolor sit amet consecteturadipisicing elit. Odit quam minima doloribus
+                        natus
+                        nostrum,recusandae quae maxime commodi nemofugiat. Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Officia aspernatur expedita magnam eaque,</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial ends here -->
+
+    <!-- Blog-page starts here -->
+    <section class="blog-page">
+        <div class="container">
+            <div class="blog-page-wrapper pt-5 pb-5">
+                <h2 class="black">Latest <b>blog </b>posts</h2>
+                <p class="black pt-3 pb-5">Lorem ipsum dolor, sit ametconsecteturadipisicing.</p>
+                <div class="plans-section d-flex justify-content-center align-items-center pt-5 pb-5">
+                    <div class="plans-item border me-3 bg-white rounded shadow-sm">
+                        <div class="blog-content">
+                            <div class="blog-page-img-div">
+                                <img class="blog-page-img rounded-top" src="ex-1/images/img-2.jpg" alt="blog-img"
+                                    height="239" width="420" title="img-section">
+                            </div>
+                            <div class="blog-text pt-4 ms-4 me-4 pb-3">
+                                <h4>Lorem sit amet consectetur adipisicing</h4>
+                                <p class="black pt-3 pb-3">Lorem ipsum dolor sit ametconsec tet uradi pisicing elit.
+                                    Quod,
+                                    iste
+                                    Quod, iste
+                                </p>
+                                <a href="#" class="btn rounded-pill py-3 px-5 btn-hover1 m-3 ms-0">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-item">
+                        <div class="blog-content border me-3 bg-white rounded shadow-sm">
+                            <div class="blog-page-img-div">
+                                <img class="blog-page-img rounded-top" src="ex-1/images/img-2.jpg" alt="blog-img"
+                                    height="239" width="420" title="img-section">
+                            </div>
+                            <div class="blog-text pt-4 ms-4 me-4 pb-3">
+                                <h4>Lorem sit amet consectetur adipisicing</h4>
+                                <p class="black pt-3 pb-3">Lorem ipsum dolor sit ametconsec tet uradi pisicing elit.
+                                    Quod,
+                                    iste
+                                    Quod, iste
+                                </p>
+                                <a href="#" class="btn border-2 rounded-pill bg-warning py-3 px-5 border-warning button-active m-3 ms-0">Read
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-item">
+                        <div class="blog-content border bg-white rounded shadow-sm">
+                            <div class="blog-page-img-div">
+                                <img class="blog-page-img rounded-top" src="ex-1/images/img-2.jpg" alt="blog-img"
+                                    height="239" width="420" title="img-section">
+                            </div>
+                            <div class="blog-text pt-4 ms-4 me-4 pb-3">
+                                <h4>Lorem sit amet consectetur adipisicing</h4>
+                                <p class="black pt-3 pb-3">Lorem ipsum dolor sit ametconsec tet uradi pisicing elit.
+                                    Quod,
+                                    iste
+                                    Quod, iste
+                                </p>
+                                <a href="#" class="btn rounded-pill py-3 px-5 btn-hover1 m-3 ms-0">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog-page ends here -->
+
+    <!-- footer starts here -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div><img src="ex-1/images/logo-footer.jpg" alt="Logo" width="150" height="60" title="footer-logo">
+                </div>
+                <div class="footer-cols d-flex pt-5 pb-5 mb-3">
+                    <div class="footer-col flex-fill">
+                        <h4>Company</h4>
+                        <ul class="links p-0">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Legal & Privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col flex-fill">
+                        <h4>Quick Links</h4>
+                        <ul class="links p-0">
+                            <li><a href="#">News</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">faq</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col flex-fill">
+                        <h4>Social</h4>
+                        <ul class="links p-0">
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Google +</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col subscribe-newsletter flex-fill">
+                        <h4>Subscribe Newsletter</h4>
+                        <form class="input-container">
+                            <input class="input-box" type="text" placeholder="email">
+                            <div class="send-button">
+                                <img class="mail-button" src="ex-1/images/icons/i-message.svg" alt="button" height="30"
+                                    width="30" title="input-section">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="copyright-section">
+                    <p>
+                        Copyright &copy All Rights Reserved Late 2018 | Design and Development by MillerDigitalDesign
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends here -->
+</body>
+
+</html>
